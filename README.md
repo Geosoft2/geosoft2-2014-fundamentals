@@ -29,7 +29,7 @@ Make sure you cover at least the mentioned keywords. More is better, but only re
 * RESTful Services, JSON and OAuth - Ummelmann, Rieping
 * Software Engineering Methods (SCRUM, user stories, backlogs, sprints, roles) - Ruhe, Junge
 * Databases (Spatial DB, NoSQL, Triple stores, ...) - Stüwe, Loos
-* Map-Client Frameworks (Leaflet, OpenLayers, GeoExt, ...) - Dragunski, Rothermund
+* Map-Client Frameworks (Leaflet, OpenLayers, GeoExt, ...) - Dragunski, Rohtermundt
 * JavaScript Frameworks (jQuery, ExtJS, D3, AngularJS, JSONIX ...) - Mohr, Stöcker
 * Web technologies (HTML5, WebSockets, Linked Data, ...) - Rendel van Zadelhoff
 * Geodata formats (WMS, Flickr images, WFS, raster/vector, netCDF, tagged data, GeoTIFF, ...) - Schulte, Tasse

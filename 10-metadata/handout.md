@@ -38,8 +38,8 @@ Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Mat
     - [Geography Markup Language (GML) 19136](http://de.wikipedia.org/wiki/ISO_19136)
 
 [**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
+[Hier](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0) eine Übersicht über die ISO-Standards.
 
-<img src="ISO_UEBERSICHT.jpg" alt="ISO_UEBERSICHT.jpg">
 
 
 

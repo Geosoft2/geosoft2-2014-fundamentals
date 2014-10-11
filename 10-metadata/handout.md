@@ -5,15 +5,15 @@ Metadaten
 Metadaten definieren die Struktur der Daten, wie sie gespeichert werden und dokumentiert werden sollen.
 
 
-> 
-Formate für Metadaten
-- ISO 19xxx
-- RDF
-- OWL
-- OGC Catalog
-- Folksonomies
-- microformats
-- Dublin Core
+ 
+**Formate für Metadaten**
+* ISO 19xxx
+* RDF
+* OWL
+* OGC Catalog
+* Folksonomies
+* microformats
+* Dublin Core
   
   
 ISO 19xxx Standards
@@ -24,7 +24,7 @@ ISO 19xxx Standards
 
 Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Materialien, Produkte, Prozesse oder Dienste bereit. Außerdem stellen sie sicher, dass Daten austauschbar, sicher, zuverlässig, von guter Qualität und vielseitig benutzbar sind.
 
->**19xxx Standards**
+**19xxx Standards**
 - [PDF 19005](http://de.wikipedia.org/wiki/PDF/A), [Qualitätsmanagement 19011](http://de.wikipedia.org/wiki/ISO_19011), [Document Schema Definition Languages (DSDL) 19757](http://de.wikipedia.org/wiki/Document_Schema_Definition_Languages)
 - [Geoinformation 191xx](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCEQFjAA&url=https%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FWDM%2FIPET-MI-II%2Fdraft_guidance_catalogues.doc&ei=1s0qVNbXPILAPOKIgPgO&usg=AFQjCNH3tp9Ey7q3luOnF4guzmljl0N-ZA&sig2=-kO1OjzrS-RVrOX_dNICbw&bvm=bv.76477589,d.ZWU&cad=rja)
     - [Raumbezugsschema 19107](http://de.wikipedia.org/wiki/ISO_19107)
@@ -39,14 +39,15 @@ Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Mat
 
 [**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
 
-<img src="ISO_UEBERSICHT.jpg" alt="ISO_UEBERSICHT.jpg">
+![Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
+[Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
 
 
 
 RDF - Resource Description Framework
 ----
 
-[RDF](http://www.w3.org/RDF/) ist ein System zur Beschreibung von Ressourcen. Ursprünglich war es ein Standard zur Beschreibung von Metadaten, mittlerweile ist es ein grundlegender Baustein des semantischen Webs. RDF ist sehr nützlich, um global einen eindeutigen Bezeichner für Ressourcen zu haben.
+[RDF](http://www.w3.org/RDF/) ist ein System zur Beschreibung von Ressourcen. Ursprünglich war es ein Standard zur Beschreibung von Metadaten, mittlerweile ist es ein grundlegender Baustein des [semantischen Webs](http://www.itwissen.info/definition/lexikon/Semantisches-Web-semantic-web.html). RDF ist sehr nützlich, um global einen eindeutigen Bezeichner für Ressourcen zu haben.
 
 **Tripel**
 
@@ -120,6 +121,8 @@ rdf:about="http://www.recshop.fake/cd/Hide your heart">
 
 XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF. 
 [Weitere Informationen hierzu](http://www.pdfa.org/2011/09/pdfa-metadaten-xmp-rdf-dublin-core/?lang=de)
+
+
 
 
 

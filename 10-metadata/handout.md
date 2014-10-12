@@ -257,7 +257,7 @@ Tags sind simple Tupel aus *Bezeichnendem, Bezeichnetem, Tag und ggf. der Zeit*.
 
 # Microformats #
 
-Microformats( zu Deutsch Mikroformate) ist eine Sammlung von Auszeichnungsformaten zur semantischen Annotation von HTML oder XHTML, die sowohl gut lesbar für Menschen als auch für Maschinen sind. Ein Microformat beschreibt ein spezifisches Themengebiet (Personen, Plätze, Veranstaltungen, …) Diese Auszeichnungen lassen sich einfach aus den Internetseiten auslesen ( Beispiel : Firefox Plug-in„Operator“)
+Microformats( zu Deutsch Mikroformate) ist eine Sammlung von Auszeichnungsformaten zur semantischen Annotation von HTML oder XHTML, die sowohl gut lesbar für Menschen als auch für Maschinen sind. Ein Microformat beschreibt ein spezifisches Themengebiet (Personen, Plätze, Veranstaltungen, …) Diese Auszeichnungen lassen sich einfach aus den Internetseiten auslesen ( Beispiel : [Firefox Plug-in„Operator“](https://addons.mozilla.org/de/firefox/addon/operator/))
 ## Bespiele von Microformats ##
 * hCard
 * hCalendar
@@ -379,7 +379,7 @@ und hier wie es angezeigt wird:
 </pre>
 
 # Dublin Core #
-Ist ein Datenformat welches Dokumente und Objekte so beschreibt, damit diese leichter auffindbar sind. Es wurde 1995 bei einer Konferenz beschlossen. Seit 2009 ist es ein ISO Standard: [ISO 15836](http://www.iso.org/iso/catalogue_detail.htm?csnumber=52142). Die Elemente von Dublin Core dürfen in einer beliebigen Reihenfolge, so oft wie man will genutzt werden. Jedes Element ist optional.
+Ist ein Datenformat welches Dokumente und Objekte so beschreibt, damit diese leichter auffindbar sind. Es wurde 1995 bei einer Konferenz in [Dublin](http://de.wikipedia.org/wiki/Dublin_%28Ohio%29) (Nicht in Irland) beschlossen. Seit 2009 ist es ein ISO Standard: [ISO 15836](http://www.iso.org/iso/catalogue_detail.htm?csnumber=52142). Die Elemente von Dublin Core dürfen in einer beliebigen Reihenfolge, so oft wie man will genutzt werden. Jedes Element ist optional.
 ## Die 15 Kernfelder von Dublin Core Metadata Element Set  1.1 ##
 
 Englische [Spezifikation](http://dublincore.org/documents/dces/)
@@ -439,7 +439,7 @@ Einbinden in HTML im &lt;head>-Teil:
 		<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="2006-03-08" />
 	</head>
 
-Außer den genannten 15 Kerfeldern gibt es noch weitere Attribute von Dublin Core die zur Beschreibung eines Objektes dienen können. Diese findet man [hier](http://dublincore.org/documents/dcmi-terms/). Es gibt einen einfachen [Online-Code-Generator](http://www.dublincoregenerator.com/generator_nq.html
+Außer den genannten 15 Kerfeldern gibt es noch weitere Attribute von Dublin Core die zur Beschreibung eines Objektes dienen können. Diese findet man [hier](http://dublincore.org/documents/dcmi-terms/). Diese DCMI terms sind weitere Felder ,welche eine Beschreibung oder Kategorisierung von Daten erlauben. Es gibt einen einfachen [Online-Code-Generator](http://www.dublincoregenerator.com/generator_nq.html
 ).
 
 # Quellen #

@@ -123,40 +123,9 @@ XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF.
 
 
 
-OGC - Catalog
----
+# OWL - Web Ontology Language #
 
-[Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
-Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
-
-<img src="OGC_GRAFIK.png" width="500" alt="OGC_GRAFIK-png">
-
-Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
-
-**Operationen**
-
-* GetCapabilities
-	* Abfragen, die diesen Catalog Service beschreiben
-* DescribeRecord
-	* Abfrage des XML-Schemas der Metadaten, die eine bestimmte Ressource beschreiben
-* GetRecords
-	* Abfrage von Metadaten der Ressourcen
-* GetRecordById
-	* Abfrage von Metadaten der Ressource mit einer bestimmten ID
-* Transaction
-	* Erstellen, Verändern und Löschen von bestimmten Metadaten
-* Harvest
-	* Einfügen oder Aktualisieren von Metadaten durch einlesen von Metadaten anderer Archive (repositories)
-
-**Beispiel**
-```sh
-http://www.geoportal1.nrw.de/soapServices/CSWStartup?service=CSW&version=2.0.2&request=GetCapabilities
-```
-
-OWL - Web Ontology Language
----
-
-[Web Ontology Language](http://www.w3.org/2001/sw/wiki/OWL) (= OWL) ist eine formale Beschreibungssprache zur Erstellung, Publikation und Verteilung von Ontologien. Technisch basiert sie auf der RDF-Syntax, allerdings weißt die OWL eine höhere Ausdrucksmächtigkeit auf. Aus diesem Grund wird OWL im Web-Bereich bevorzugt, außerdem dient sie dazu Daten zu verarbeiten und nicht "nur" darzustellen.
+Web Ontology Language (= OWL) ist eine formale Beschreibungssprache zur Erstellung, Publikation und Verteilung von Ontologien. Technisch basiert sie auf der RDF-Syntax, allerdings weißt die OWL eine höhere Ausdrucksmächtigkeit auf. Aus diesem Grund wird OWL im Web-Bereich bevorzugt, außerdem dient sie dazu Daten zu verarbeiten und nicht "nur" darzustellen.
 
 ## 3 Untersprachen ##
 Bei jeder Untersprache gelden folgende Beziehungen, aber nicht Umgekehrt:
@@ -167,18 +136,19 @@ Bei jeder Untersprache gelden folgende Beziehungen, aber nicht Umgekehrt:
 * Jede gültige OWL DL Schlussfolgerung ist eine gültige OWL Full Schlussfolgerung
 
 ### OWL - Lite ###
-Unterstützt Nutzer, die Klassifikationshierarchien und einfache Restriktionen benötigen.
+Unterstützt Nutzer, die Klassifikationshierarchien und einfache Restriktionen benötigen. Hierbei können z.B. bei den Kardinalitäten nur die Werte "0" oder "1" gestetzt werden.
 
 ### OWL - DL ###
-Unterstützt Nutzer, die eine maximale Ausdrucksstärke bei vollständiger Verarbeitbarkeit und Entscheidbarkeit haben möchte. Dies schließen alle Sprachkonstruktionen ein, welche man dann, nur unter bestimmten Voraussetzungen benutzen kann.
+Unterstützt Nutzer, die eine maximale Ausdrucksstärke bei vollständiger Verarbeitbarkeit (alle Folgerungen können garantiert gezogen werden) und [Entscheidbarkeit](http://de.wikipedia.org/wiki/Entscheidbar) (jede Verarbeitung wird in endlicher Zeit durchgeführt) haben möchte. Dies schließen alle Sprachkonstruktionen ein, welche man nur unter bestimmten Voraussetzungen benutzen kann.
 ###### Beispiel ######
-Eine Klasse kann Unterklasse von vielen Klassen sein, aber nur Instanz von einer anderen Klasse.
+Eine Klasse kann Unterklasse von vielen Klassen sein, aber nur Instanz von einer anderen Klasse (Typunterscheidung).
 
 ### OWL - Full ###
-Unterstützt Nutzer, die volle Ausdrucksstärke und syntaktische Freiheit haben möchten. Allerdings muss man hierbei beachten, dass es keine Gewissheit gibt, ob man diese letzten endes verwenden kann.
+Unterstützt Nutzer, die volle Ausdrucksstärke und syntaktische Freiheit haben möchten. Allerdings muss man hierbei beachten, dass es keine Gewissheit gibt, ob diese Menge an Ausdrucksstärke nachher verwendbar ist.
+Weiter ist es möglich das Vokabular zu erweitern, was eine Frage auf wirft: Welche Software schafft die komplette Schlussfolgerung der Ontologien? - Keine, da die Ontologien immer erweitert werden können und sich somit die Software auch selbstständig anpassen müsste.
 ###### Beispiel ######
-Eine Klasse wird als Collection von Individuen behandelt,kann  aber auch als ein eigenes Individuum.
-
+Eine Klasse wird als Collection von Individuen behandelt, kann aber auch als ein eigenes Individuum behandelt werden.
+	
 ## Struktur ##
 #### Header ####
 Beschreibt und führt Informationen über:
@@ -211,48 +181,90 @@ Beschreibt und führt Informationen über:
 ###### 1. Beispiel ######
 Das UML-Diagramm zeigt, dass *Stadt* eine Unterklasse von *Ort* ist und der widerrum eine Unterklasse von *Gebiet*. Weiter wird festgelegt, dass *Berlin* eine Instanz von *Stadt* ist.
 
-<img src="OWL_BSP1.png" width="150" align="center" alt="Bild: OWL_BSP1.png">
+[Beispieldiagramm](https://www.dropbox.com/s/9ykxh0wjqjgl9sc/OWL_BSP1.png?dl=0)
 
-```sh
-	<owl:Class rdf:ID="Ort"/>
-	<owl:Class rdf:ID="Stadt"> 
-		<rdfs:subClassOf rdf:resource="#Ort"/> 
-	</owl:Class>
-  <Stadt rdf:ID="Berlin"/>
-
-```
+<pre><code>
+	&lt;owl:Class rdf:ID="Ort"/>
+	&lt;owl:Class rdf:ID="Stadt"> 
+		&lt;rdfs:subClassOf rdf:resource="#Ort"/> 
+	&lt;/owl:Class>
+	&lt;Stadt rdf:ID="Berlin"/>
+</code>
+</pre>
 
 ###### 2. Beispiel ######
 Das UML-Diagramm zeigt die Beziehung zwischen *Wein* und einer *Weinkellerei*, nämlich *hergestelltVon*.
 
-<img src="OWL_BSP2.png" alt="Bild: OWL_BSP2.png">
+[Beispieldiagramm](https://www.dropbox.com/s/nb8ywg3qh95ai6w/OWL_BSP2.png?dl=0)
 
-```sh
-<owl:ObjectProperty rdf:ID="hergestelltVon"> 
-	<rdfs:domain rdf:resource="&owl;Thing"/> 
-	<rdfs:range rdf:resource="&owl;Thing"/>
-</owl:ObjectProperty> 
+<pre><code>
+&lt;owl:ObjectProperty rdf:ID=„hergestelltVon"> 
+	&lt;rdfs:domain rdf:resource=„&owl;Thing"/> 
+	&lt;rdfs:range rdf:resource=„&owl;Thing"/>
+&lt;/owl:ObjectProperty> 
 
-<owl:Class rdf:ID="Wein">
-	<rdfs:subClassOf>
-		<owl:Restriction>
-			<owl:onProperty rdf:resource="hergestelltVon"/>
-			<owl:allValuesFrom rdf:resource="Weinkellerei"/>
-			<owl:cardinality>1</owl:cardinality> 
-		</owl:Restriction>
-	</rdfs:subClassOf>
-</owl:Class>
-```
+&lt;owl:Class rdf:ID=„Wein">
+	&lt;rdfs:subClassOf>
+		&lt;owl:Restriction>
+			&lt;owl:onProperty rdf:resource=„hergestelltVon“/>
+			&lt;owl:allValuesFrom rdf:resource=„Weinkellerei“/>
+			&lt;owl:cardinality>1</owl:cardinality> 
+		&lt;/owl:Restriction>
+	&lt;/rdfs:subClassOf>
+&lt;/owl:Class>
+</code>
+</pre>
 
 Der Header zeigt an, welche Beziehung beschrieben wird und welche *domain* und *range* gegeben sind. Hier: alle Elemente der Klasse *owl:Thing*. Im Body wird die Klasse *Wein* genauer beschrieben, nämlich dass *Wein* alle Werte der *Weinkellerei* übernehmen soll, von dieser hergestellt wird und nur von genau einer hergestellt wird.
+
+# OGC - Catalog #
+
+[Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
+Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
+
+[Übersicht: OGC - Catalog](https://www.dropbox.com/s/hlts7l52ld5plf1/OGC_GRAFIK.png?dl=0)
+
+Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
+
+### Operationen ###
+
+* GetCapabilities
+* Abfragen, die diesen Catalog Service beschreiben
+* DescribeRecord
+* Abfrage des XML-Schemas der Metadaten, die eine bestimmte Ressource beschreiben
+* GetRecords
+* Abfrage von Metadaten der Ressourcen
+* GetRecordById
+* Abfrage von Metadaten der Ressource mit einer bestimmten ID
+* Transaction
+* Erstellen, Verändern und Löschen von bestimmten Metadaten
+* Harvest
+* Einfügen oder Aktualisieren von Metadaten durch einlesen von Metadaten anderer Archive (repositories)
+
+**Beispiel**
+
+```sh
+http://www.geoportal1.nrw.de/soapServices/CSWStartup?service=CSW&version=2.0.2&request=GetCapabilities
+```
+
+## Weitere Datenmodelle ##
+Folgende sind weitere Datenmodelle, die auch häufig als Standart benutzt werden: 
+
+### ebRIM ###
+Electronic Business Registry Information Model (= [ebRIM](http://www.opengeospatial.org/standards/requests/29)) ist eine auf ebXML basierende Anwendung für Registrierungsservices und ist sowohl ein ISO-Standart, als auch ein Standart der [OASIS](https://www.oasis-open.org/).
 
 
 # Folksonomy #
 
-> *„**Folksonomy*** is the result of **personal free tagging** of information and objects (anything with a URL) for one's own retrieval. The tagging is done **in a social environment** (usually shared and open to others). Folksonomy is **created** from the act of tagging **by the person consuming the information**.“*
+>[*„Folksonomy"*](http://www.wissensstrukturplan.de/wissensstrukturplan/glossar/f_folk.php
+) is the result of **personal free tagging** of information and objects (anything with a URL) for one's own retrieval. The tagging is done **in a social environment** (usually shared and open to others). Folksonomy is **created** from the act of tagging **by the person consuming the information**.“
 
-[Folksonomy](http://www.socialtagging.org/) setzt sich aus *Folks* und *Taxonomie* zusammen. Es gibt bei einer Folksonomy keine hierarchische Struktur, die Tags sind gleichwertig.
-Tags sind simple Tupel aus *Bezeichnendem, Bezeichnetem, Tag und ggf. der Zeit*.
+Folksonomy setzt sich aus *Folks* und *Taxonomie* zusammen.
+
+Beispiele für Folksonomien sind: Flickr, YouTube, Delicious und andere Online-Platformen, die ähnlich arbeiten.
+OpenStreetMap ist ein weiteres Beispiel, die Funktionsweise könnte wie folgt beschreibeen werden:
+folk (Leute)+ taxis (Klassifikation)+ nomos (Management). Ein Problem hierbei ist, dass unterschiedliche Nutzer dem gleichen Objekten möglicherweise unterschiedliche "Tags" zuordnen.
+Auch kann man sich an dieser Stelle streiten, ob OpenStreetMap eien Folksonomy oder eine Taxonomy ist.
 
 
 # Microformats #

@@ -439,7 +439,7 @@ Einbinden in HTML im &lt;head>-Teil:
 		<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="2006-03-08" />
 	</head>
 
-Außer den genannten 15 Kerfeldern gibt es noch weitere Attribute von Dublin Core die zur Beschreibung eines Objektes dienen können. Diese findet man [hier](http://dublincore.org/documents/dcmi-terms/). Diese DCMI terms sind weitere Felder ,welche eine Beschreibung oder Kategorisierung von Daten erlauben. Es gibt einen einfachen [Online-Code-Generator](http://www.dublincoregenerator.com/generator_nq.html
+Außer den genannten 15 Kernfeldern gibt es noch weitere Attribute von Dublin Core die zur Beschreibung eines Objektes dienen können. Diese findet man [hier](http://dublincore.org/documents/dcmi-terms/). Diese DCMI terms sind weitere Felder ,welche eine Beschreibung oder Kategorisierung von Daten erlauben. Es gibt einen einfachen [Online-Code-Generator](http://www.dublincoregenerator.com/generator_nq.html
 ).
 
 # Quellen #

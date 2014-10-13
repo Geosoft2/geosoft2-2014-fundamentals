@@ -1,128 +1,131 @@
-Metadaten
-=========
+ # Metadaten#
 
-[Metadaten](http://andreas-pfund.de/definition/metadaten/metadaten.php) sind Daten über Daten, also Informationen über andere Informationsressourcen. Sie sind besonders wichtig bei größeren Datenmengen und müssen maschinell lesbar und auswertbar sein.
-Metadaten definieren die Struktur der Daten, wie sie gespeichert werden und dokumentiert werden sollen.
+ 
+ [Metadaten](http://andreas-pfund.de/definition/metadaten/metadaten.php) sind Daten über Daten, also Informationen über andere Informationsressourcen. Sie sind besonders wichtig bei größeren Datenmengen und müssen maschinell lesbar und auswertbar sein.
+ Metadaten definieren die Struktur der Daten, wie sie gespeichert werden und dokumentiert werden sollen.
+ 
 
+**Formate für Metadaten**
 
-> 
-Formate für Metadaten
-- ISO 19xxx
-- RDF
-- OWL
-- OGC Catalog
-- Folksonomies
-- microformats
-- Dublin Core
-  
-  
-ISO 19xxx Standards
-----
-
-
-**Standards**
-
+* ISO 19xxx
+* RDF
+* OWL
+* OGC Catalog
+* Folksonomies
+* microformats
+* Dublin Core
+   
+   
+ ISO 19xxx Standards
+ ----
+ 
+ 
+ **Standards**
+ 
 Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Materialien, Produkte, Prozesse oder Dienste bereit. Außerdem stellen sie sicher, dass Daten austauschbar, sicher, zuverlässig, von guter Qualität und vielseitig benutzbar sind.
+ 
 
->**19xxx Standards**
-- [PDF 19005](http://de.wikipedia.org/wiki/PDF/A), [Qualitätsmanagement 19011](http://de.wikipedia.org/wiki/ISO_19011), [Document Schema Definition Languages (DSDL) 19757](http://de.wikipedia.org/wiki/Document_Schema_Definition_Languages)
-- [Geoinformation 191xx](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCEQFjAA&url=https%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FWDM%2FIPET-MI-II%2Fdraft_guidance_catalogues.doc&ei=1s0qVNbXPILAPOKIgPgO&usg=AFQjCNH3tp9Ey7q3luOnF4guzmljl0N-ZA&sig2=-kO1OjzrS-RVrOX_dNICbw&bvm=bv.76477589,d.ZWU&cad=rja)
-    - [Raumbezugsschema 19107](http://de.wikipedia.org/wiki/ISO_19107)
-    - [Regel zur Erstellung von Anwendungsschemata 19109](http://de.wikipedia.org/wiki/ISO_19109)
-    - [Geographisches Objekt](http://de.wikipedia.org/wiki/Geographisches_Objekt)
-    - [Koordinatenreferenzsysteme 19111](http://de.wikipedia.org/wiki/ISO_19111)
-    - [Qualitätsgrundsätze 19113](http://de.wikipedia.org/wiki/ISO_19113)
-    - [Metadaten 19115](http://de.wikipedia.org/wiki/ISO_19115)
-    - [Coverage Geometrie u. Funktionsschema 19123](http://de.wikipedia.org/wiki/ISO_19123)
-    - [Registrierungsverfahren für geographische Informationseinheiten 19135](http://de.wikipedia.org/wiki/ISO_19135)
-    - [Geography Markup Language (GML) 19136](http://de.wikipedia.org/wiki/ISO_19136)
+**19xxx Standards**
+ - [PDF 19005](http://de.wikipedia.org/wiki/PDF/A), [Qualitätsmanagement 19011](http://de.wikipedia.org/wiki/ISO_19011), [Document Schema Definition Languages (DSDL) 19757](http://de.wikipedia.org/wiki/Document_Schema_Definition_Languages)
+ - [Geoinformation 191xx](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCEQFjAA&url=https%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FWDM%2FIPET-MI-II%2Fdraft_guidance_catalogues.doc&ei=1s0qVNbXPILAPOKIgPgO&usg=AFQjCNH3tp9Ey7q3luOnF4guzmljl0N-ZA&sig2=-kO1OjzrS-RVrOX_dNICbw&bvm=bv.76477589,d.ZWU&cad=rja)
+     - [Raumbezugsschema 19107](http://de.wikipedia.org/wiki/ISO_19107)
+     - [Regel zur Erstellung von Anwendungsschemata 19109](http://de.wikipedia.org/wiki/ISO_19109)
+     - [Geographisches Objekt](http://de.wikipedia.org/wiki/Geographisches_Objekt)
+     - [Koordinatenreferenzsysteme 19111](http://de.wikipedia.org/wiki/ISO_19111)
+     - [Qualitätsgrundsätze 19113](http://de.wikipedia.org/wiki/ISO_19113)
+     - [Metadaten 19115](http://de.wikipedia.org/wiki/ISO_19115)
+     - [Coverage Geometrie u. Funktionsschema 19123](http://de.wikipedia.org/wiki/ISO_19123)
+     - [Registrierungsverfahren für geographische Informationseinheiten 19135](http://de.wikipedia.org/wiki/ISO_19135)
+     - [Geography Markup Language (GML) 19136](http://de.wikipedia.org/wiki/ISO_19136)
+ 
 
-[**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
+ [**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
+ 
 
-<img src="ISO_UEBERSICHT.jpg" alt="ISO_UEBERSICHT.jpg">
-
-
-
-RDF - Resource Description Framework
-----
-
-[RDF](http://www.w3.org/RDF/) ist ein System zur Beschreibung von Ressourcen. Ursprünglich war es ein Standard zur Beschreibung von Metadaten, mittlerweile ist es ein grundlegender Baustein des semantischen Webs. RDF ist sehr nützlich, um global einen eindeutigen Bezeichner für Ressourcen zu haben.
-
-**Tripel**
-
-Im RDF-Modell, welches eine formale Semantik besitzt und auf dem gerichteten Graphen basiert, enthält eine Aussage Subjekt, Prädikat und Objekt. Eine Ressource wird als Subjekt mit einer anderen Ressource oder einem Wert als Objekt mit einer weiteren Ressource als Prädikat näher beschrieben.
-
-Ein Tripel stellt eine Behauptung dar: Subjekt und Objekt miteinander in Beziehung/Relation gesetzt.
-
-```sh
-Subjekt --> Objekt Prädikat
-
-       * Geoinformatik enthält Geodatenmanagement
-
-       * Bäume haben Blätter
-
-       * Straßen bilden Netzwerke
-       
-    Subjekte: Geoinformatik, Bäume, Straßen
-    Prädikate: enthält, haben, bilden
-    Objekte: Geodatenmanagement, Blätter, Netzwerke
-
-```
-
-
-
-**URI - Uniform Resource Identifier**
-
-
-Eine Ressourcen ist eindeutig bezeichnet und kann Subjekt Prädikat oder Objekt sein. Objekte können auch ein Literal sein, d.h. eine Zeichenkette wie z.B. Wahrheitswerte, Zahlen oder Datumsanganben.
-
-RDF-Ressourcen werden durch einen eindeutigen Bezeichner, eine URI, identifiziert. Diese ähneln der Form einer URL, denn sie ist eine spezielle URI zum identifizieren von Websites.
-
-Beispiel
-```sh
-
-    URI einer Website: http://geofs.uni-muenster.de/geoinf/doku.php
-
-    URI einer Mailadresse: mailto:fsgi@uni-muenster.de
-
-    URI eines Buches: urn:isbn:3-87907-265-5
-
-```
-
-Code-Beispiel
-```sh
-<?xml version="1.0"?>
-
-<rdf:RDF
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-xmlns:cd="http://www.recshop.fake/cd#">
-
-<rdf:Description
-rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
-  <cd:artist>Bob Dylan</cd:artist>
-  <cd:country>USA</cd:country>
-  <cd:company>Columbia</cd:company>
-  <cd:price>10.90</cd:price>
-  <cd:year>1985</cd:year>
-</rdf:Description>
-
-<rdf:Description
-rdf:about="http://www.recshop.fake/cd/Hide your heart">
-  <cd:artist>Bonnie Tyler</cd:artist>
-  <cd:country>UK</cd:country>
-  <cd:company>CBS Records</cd:company>
-  <cd:price>9.90</cd:price>
-  <cd:year>1988</cd:year>
-</rdf:Description>
-
-</rdf:RDF> 
-```
-
-XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF. 
-[Weitere Informationen hierzu](http://www.pdfa.org/2011/09/pdfa-metadaten-xmp-rdf-dublin-core/?lang=de)
-
-
-
+![Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
+[Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
+ 
+ 
+ 
+ RDF - Resource Description Framework
+ ----
+ 
+[RDF](http://www.w3.org/RDF/) ist ein System zur Beschreibung von Ressourcen. Ursprünglich war es ein Standard zur Beschreibung von Metadaten, mittlerweile ist es ein grundlegender Baustein des [semantischen Webs](http://www.itwissen.info/definition/lexikon/Semantisches-Web-semantic-web.html). RDF ist sehr nützlich, um global einen eindeutigen Bezeichner für Ressourcen zu haben.
+ 
+ **Tripel**
+ 
+ Im RDF-Modell, welches eine formale Semantik besitzt und auf dem gerichteten Graphen basiert, enthält eine Aussage Subjekt, Prädikat und Objekt. Eine Ressource wird als Subjekt mit einer anderen Ressource oder einem Wert als Objekt mit einer weiteren Ressource als Prädikat näher beschrieben.
+ 
+ Ein Tripel stellt eine Behauptung dar: Subjekt und Objekt miteinander in Beziehung/Relation gesetzt.
+ 
+ ```sh
+ Subjekt --> Objekt Prädikat
+ 
+        * Geoinformatik enthält Geodatenmanagement
+ 
+        * Bäume haben Blätter
+ 
+        * Straßen bilden Netzwerke
+        
+     Subjekte: Geoinformatik, Bäume, Straßen
+     Prädikate: enthält, haben, bilden
+     Objekte: Geodatenmanagement, Blätter, Netzwerke
+ 
+ ```
+ 
+ 
+ 
+ **URI - Uniform Resource Identifier**
+ 
+ 
+ Eine Ressourcen ist eindeutig bezeichnet und kann Subjekt Prädikat oder Objekt sein. Objekte können auch ein Literal sein, d.h. eine Zeichenkette wie z.B. Wahrheitswerte, Zahlen oder Datumsanganben.
+ 
+ RDF-Ressourcen werden durch einen eindeutigen Bezeichner, eine URI, identifiziert. Diese ähneln der Form einer URL, denn sie ist eine spezielle URI zum identifizieren von Websites.
+ 
+ Beispiel
+ ```sh
+ 
+     URI einer Website: http://geofs.uni-muenster.de/geoinf/doku.php
+ 
+     URI einer Mailadresse: mailto:fsgi@uni-muenster.de
+ 
+     URI eines Buches: urn:isbn:3-87907-265-5
+ 
+ ```
+ 
+ Code-Beispiel
+ ```sh
+ <?xml version="1.0"?>
+ 
+ <rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:cd="http://www.recshop.fake/cd#">
+ 
+ <rdf:Description
+ rdf:about="http://www.recshop.fake/cd/Empire Burlesque">
+   <cd:artist>Bob Dylan</cd:artist>
+   <cd:country>USA</cd:country>
+   <cd:company>Columbia</cd:company>
+   <cd:price>10.90</cd:price>
+   <cd:year>1985</cd:year>
+ </rdf:Description>
+ 
+ <rdf:Description
+ rdf:about="http://www.recshop.fake/cd/Hide your heart">
+   <cd:artist>Bonnie Tyler</cd:artist>
+   <cd:country>UK</cd:country>
+   <cd:company>CBS Records</cd:company>
+   <cd:price>9.90</cd:price>
+   <cd:year>1988</cd:year>
+ </rdf:Description>
+ 
+ </rdf:RDF> 
+ ```
+ 
+ XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF. 
+ [Weitere Informationen hierzu](http://www.pdfa.org/2011/09/pdfa-metadaten-xmp-rdf-dublin-core/?lang=de)
+ 
+ Auch [SPARQL](http://www.w3.org/TR/rdf-sparql-query/) (SPARQL Protocol And RDF Query Language) und [GeoSPARQL](http://www.opengeospatial.org/standards/geosparql) sind graph-basierte Abfragesprachen für RDF. Hiermit können Daten im Internet repräsentiert werden. Ein Beispiel für GeoSPARQL und direktes Testen von Anfragen ist [hier](http://www.geosparql.org/) möglich.
 # OWL - Web Ontology Language #
 
 Web Ontology Language (= OWL) ist eine formale Beschreibungssprache zur Erstellung, Publikation und Verteilung von Ontologien. Technisch basiert sie auf der RDF-Syntax, allerdings weißt die OWL eine höhere Ausdrucksmächtigkeit auf. Aus diesem Grund wird OWL im Web-Bereich bevorzugt, außerdem dient sie dazu Daten zu verarbeiten und nicht "nur" darzustellen.

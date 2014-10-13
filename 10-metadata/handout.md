@@ -1,5 +1,5 @@
- # Metadaten#
-
+ Metadaten
+===
  
  [Metadaten](http://andreas-pfund.de/definition/metadaten/metadaten.php) sind Daten über Daten, also Informationen über andere Informationsressourcen. Sie sind besonders wichtig bei größeren Datenmengen und müssen maschinell lesbar und auswertbar sein.
  Metadaten definieren die Struktur der Daten, wie sie gespeichert werden und dokumentiert werden sollen.
@@ -42,7 +42,6 @@ Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Mat
  [**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
  
 
-![Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
 [Übersicht ISO19xxx](https://www.dropbox.com/s/bocu2qry0dabq53/ISO%20Standards.jpg?dl=0)
  
  
@@ -59,7 +58,8 @@ Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Mat
  Ein Tripel stellt eine Behauptung dar: Subjekt und Objekt miteinander in Beziehung/Relation gesetzt.
  
  ```sh
- Subjekt --> Objekt Prädikat
+ Subjekt ------> Objekt 
+ 	    Prädikat
  
         * Geoinformatik enthält Geodatenmanagement
  

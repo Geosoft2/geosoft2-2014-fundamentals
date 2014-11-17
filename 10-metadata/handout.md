@@ -264,7 +264,7 @@ Electronic Business Registry Information Model (= [ebRIM](http://www.opengeospat
 
 Folksonomy setzt sich aus *Folks* und *Taxonomie* zusammen.
 
-Beispiele für Folksonomien sind: Flickr, YouTube, Delicious und andere Online-Platformen, die ähnlich arbeiten.
+Das Konzept von Folksonomien nutzen: Flickr, YouTube, Delicious und andere Online-Platformen, die ähnlich arbeiten.
 OpenStreetMap ist ein weiteres Beispiel, die Funktionsweise könnte wie folgt beschreibeen werden:
 folk (Leute)+ taxis (Klassifikation)+ nomos (Management). Ein Problem hierbei ist, dass unterschiedliche Nutzer dem gleichen Objekten möglicherweise unterschiedliche "Tags" zuordnen.
 Auch kann man sich an dieser Stelle streiten, ob OpenStreetMap eien Folksonomy oder eine Taxonomy ist.
